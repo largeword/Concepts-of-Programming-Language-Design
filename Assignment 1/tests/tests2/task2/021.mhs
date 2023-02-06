@@ -1,0 +1,3 @@
+main :: Bool
+    = let neq :: (Int -> Int -> Bool) = (/=);
+    in neq 10 10; -- returns False

@@ -1,0 +1,5 @@
+main :: Int = 
+    let f :: Int = 3;
+        in let f :: (Int -> Int) x = x * f;
+               in let x :: ((Int -> Int) -> Int) y = y 10;
+    in x f;

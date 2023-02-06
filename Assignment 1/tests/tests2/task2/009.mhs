@@ -1,0 +1,15 @@
+main :: Int
+     = 
+    let add :: Int = 1;
+
+    in let
+        inc :: (Int -> Int -> Int)
+                 = recfun inc :: (Int -> Int -> Int) = (+);
+    in let
+        lt :: (Int -> Int -> Bool)
+            = recfun lt :: (Int -> Int -> Bool) = (<);
+    in let
+        f :: (Int -> Int) = 
+                   recfun f :: (Int -> Int) x = if lt x 100 then f (inc 1 x) else x ;
+
+    in f 10;

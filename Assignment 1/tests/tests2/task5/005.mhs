@@ -1,0 +1,14 @@
+main :: Int 
+     = 
+    let
+        compose2 :: ((Int -> Int) -> (Int -> Int -> Int) -> Int -> Int) f g x =
+                f (g x x);
+
+    in let
+        dub :: (Int -> Int) x = x * 2;
+
+    in let
+        mul :: (Int -> Int -> Int) x y =
+                x * y;
+
+     in compose2 dub mul 3 ; -- 2 * (3 * 3) == 18

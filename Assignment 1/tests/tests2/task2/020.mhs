@@ -1,0 +1,3 @@
+main :: Int
+    = let div :: (Int -> Int) = (-) 4;
+    in div 2; -- returns 2

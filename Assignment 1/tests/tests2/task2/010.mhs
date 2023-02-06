@@ -1,0 +1,5 @@
+main :: Int
+    = 
+    let dohead :: ([Int] -> Int)
+        = recfun dohead :: ([Int] -> Int) = head;
+    in dohead (Cons 1 (Cons 2 Nil)); -- returns 1

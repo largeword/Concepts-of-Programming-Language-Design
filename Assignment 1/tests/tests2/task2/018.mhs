@@ -1,0 +1,9 @@
+main :: Int
+    = 
+    let dohead :: ([Int] -> Int)
+        = recfun dohead :: ([Int] -> Int) = head;
+    in let dotail :: ([Int] -> [Int])
+        = recfun dotail :: ([Int] -> [Int]) = tail;
+    in let list :: (Int -> [Int] -> [Int])
+        = recfun list :: (Int -> [Int] -> [Int]) = Cons;
+    in dohead (dotail (list 12 (list 17 (list 19 Nil)))); -- returns 17

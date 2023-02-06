@@ -1,0 +1,4 @@
+main :: Int
+    = let inc :: (Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int)
+        = recfun inc :: (Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int) a b c d e f g h i j k l m n o p = a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p;
+    in inc 2 8 4 5 6 3 2 4 7 88 55 45 12 444 1245 784594; -- returns 786524

@@ -1,0 +1,7 @@
+main :: Int
+    = 
+    let mul :: (Int -> Int -> Int)
+        = recfun mul :: (Int -> Int -> Int) = (*);
+    in let quot :: (Int -> Int -> Int)
+        = recfun quot :: (Int -> Int -> Int) = (/);
+    in quot (mul 8 9) 3; -- returns 24

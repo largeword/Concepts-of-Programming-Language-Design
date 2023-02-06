@@ -1,0 +1,3 @@
+main :: Int
+  = let sevens :: [Int] = recfun sevens :: [Int] = Cons 7 sevens;
+     in head sevens * head (tail sevens);

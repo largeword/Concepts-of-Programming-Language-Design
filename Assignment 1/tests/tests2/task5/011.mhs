@@ -1,0 +1,6 @@
+main :: Int = 
+    let f :: (Int -> Int) = (+) 42;
+        g :: (Int -> Int) x = x * f 5;
+        z :: (Int -> Int -> Int) y z = g y - z;
+        h :: ((Int -> Int -> Int) -> Int -> Int -> (Int -> Int) -> Int) a b c d = a b c + b + c * d c - d b;
+    in h z 34 230 g;

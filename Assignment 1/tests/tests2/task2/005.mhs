@@ -1,0 +1,7 @@
+main :: Bool
+    = 
+    let mul :: (Int -> Int)
+        = recfun mul :: (Int -> Int) = (*) 5;
+    in let geq5 :: (Int -> Bool)
+        = recfun geq5 :: (Int -> Bool) = (>=) 10;
+    in geq5 (mul 8); -- returns False

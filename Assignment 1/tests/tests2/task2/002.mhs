@@ -1,0 +1,4 @@
+main :: Bool
+    = let geq5 :: (Int -> Bool)
+        = recfun geq5 :: (Int -> Bool) = (>=) 5;
+    in geq5 8; -- returns True

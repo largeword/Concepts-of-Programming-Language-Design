@@ -1,0 +1,4 @@
+main :: Bool
+= let le :: (Int -> Int -> Bool)
+= recfun le :: (Int -> Int -> Bool) x y = x >= y;
+in le 3 4;

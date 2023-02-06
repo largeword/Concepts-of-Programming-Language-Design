@@ -1,0 +1,5 @@
+main :: Bool
+    = 
+    let eq :: (Int -> Int -> Bool)
+        = recfun eq :: (Int -> Int -> Bool) = (==);
+    in eq 8 9; -- returns False

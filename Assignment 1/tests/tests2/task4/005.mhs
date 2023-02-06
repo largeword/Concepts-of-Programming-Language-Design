@@ -1,0 +1,8 @@
+main :: Int
+    = 
+    let min :: (Int -> Int -> Int)
+            = recfun min :: (Int -> Int -> Int) = (-);
+        f :: (Int -> Int)
+            = recfun f :: (Int -> Int) x = x * 5;
+        six :: Int = 6;
+    in min (f 5) six; -- returns 19

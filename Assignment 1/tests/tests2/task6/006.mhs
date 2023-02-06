@@ -1,0 +1,3 @@
+main :: Bool
+  = let empty :: [Int] = recfun empty :: [Int] = Nil;
+     in null empty;

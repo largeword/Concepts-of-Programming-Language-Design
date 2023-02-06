@@ -1,0 +1,4 @@
+main :: Int
+= let y :: Int = 3;
+in let f :: (Int -> Int) x = 0 - x;
+in f y;

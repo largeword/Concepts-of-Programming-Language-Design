@@ -1,0 +1,4 @@
+main :: Int =
+    let f :: (Int -> Int -> Int)
+     = recfun f :: (Int -> Int -> Int) x y = if x < 10 then f (x+1) y else y;
+     in f 8 24;

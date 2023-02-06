@@ -1,0 +1,3 @@
+main :: Bool
+    = let st3 :: (Int -> Bool) = (>) 3;
+    in st3 (-100); -- returns True

@@ -1,0 +1,5 @@
+main :: [Int] = 
+    let list :: [Int] = recfun list :: [Int] = Cons 3 (Cons 5 (Cons 7 list));
+        a :: [Int] = Cons (head (tail (tail (tail (tail (tail (tail list))))))) (Cons (head (tail (tail (tail (tail (tail (tail (tail list)))))))) (Cons (head (tail (tail (tail (tail (tail (tail (tail (tail list))))))))) Nil));
+        b :: [Int] = a;
+    in Cons (head b) (Cons (head (tail (tail b))) Nil);

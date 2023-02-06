@@ -1,0 +1,5 @@
+main :: Int
+    = 
+    let mul :: (Int -> Int -> Int)
+        = recfun mul :: (Int -> Int -> Int) = (*);
+    in mul 8 9; -- returns 72

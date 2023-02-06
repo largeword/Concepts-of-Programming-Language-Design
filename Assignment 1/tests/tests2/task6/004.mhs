@@ -1,0 +1,5 @@
+main :: Int
+  = let a :: Int = 3;
+        b :: Int = 4;
+        sum :: [Int] = recfun sum :: [Int] = Cons (a + b) sum;
+     in head (tail sum);

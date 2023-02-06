@@ -1,0 +1,5 @@
+main :: Bool 
+    = let ones :: [Int] 
+        = recfun ones :: [Int] = Cons 1 ones;
+          a :: [Int] = ones;
+    in null a;

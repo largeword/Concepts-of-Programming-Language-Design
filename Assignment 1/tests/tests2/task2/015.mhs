@@ -1,0 +1,4 @@
+main :: [Int]
+    = let list :: ([Int] -> [Int])
+        = recfun list :: ([Int] -> [Int]) = Cons 4;
+    in list Nil; -- returns Cons 4 Nil

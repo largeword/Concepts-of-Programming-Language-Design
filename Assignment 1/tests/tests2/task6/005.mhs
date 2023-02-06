@@ -1,0 +1,5 @@
+main :: Int
+  = let ones :: [Int] = recfun ones :: [Int] = Cons 1 ones;
+        twos :: [Int] = recfun twos :: [Int] = Cons 2 twos;
+        threes :: [Int] = recfun threes :: [Int] = Cons (head ones + head (tail twos)) threes;
+     in head threes;

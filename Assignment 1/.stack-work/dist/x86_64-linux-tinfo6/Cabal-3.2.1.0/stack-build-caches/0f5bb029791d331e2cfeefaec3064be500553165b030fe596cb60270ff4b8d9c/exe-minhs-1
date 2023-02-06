@@ -1,0 +1,16 @@
+/home/luxinliang/minhs/Main.hs:
+  hash: cda18447a92281b46663661ccba970793ddac5bae60f6d4c53da4467b2473ef5
+/home/luxinliang/minhs/MinHS/Env.hs:
+  hash: d8e3b88504d7160d967d5d3d2155f8fcbd3f55eebf18f4b1847475c6b31e9c31
+/home/luxinliang/minhs/MinHS/Evaluator.hs:
+  hash: 1d2ec1fa595f6803779beecf66d2291fb34ebece5baacbe2a3e90c775789cbac
+/home/luxinliang/minhs/MinHS/Parse.hs:
+  hash: 1db6b0a249a32775788952e7fce2d1b0b6dc8f5246299cb010150c17cdac3588
+/home/luxinliang/minhs/MinHS/Pretty.hs:
+  hash: 2b75e4192577706f8eaf1596d3f6329522f2060545fc5fa84bd966057564aaef
+/home/luxinliang/minhs/MinHS/Syntax.hs:
+  hash: accd4390bb79aa1de92c8843f15d6d6540fc03e959669f99dadc833d0b78a758
+/home/luxinliang/minhs/MinHS/TypeChecker.hs:
+  hash: b7e888f645687ac7c96308faade672f05c1ceb6e2f07cb8e2ee07d78cec227e5
+/home/luxinliang/minhs/minhs1.cabal:
+  hash: 7f91cec0647adb1af01c66c21752474b596a39148e4a4af64431b30658ab5804
